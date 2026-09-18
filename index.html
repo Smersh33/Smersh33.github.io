@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-библиотека Пушкина</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Александр Сергеевич Пушкин</h1>
+            <nav class="menu">
+                <ul >
+                    <li><a id="main" href="index.html">Главная</a></li>
+                    <li><a id="bio"  href="bio.html">Биография</a></li>
+                    <li><a id="book" href="book.html">Произведения</a></li>
+                    <li><a id="registration" href="registration.html">Регистрация</a></li>  
+                    <form class="search-form">
+                        <input id="search" type="text" placeholder="Поиск по названию или автору...">
+                        <button id="btn" type="submit">Поиск</button>
+                    </form>  
+                </ul>
+            </nav>
+        <div id="books-grid" class="books-grid"></div>
+
+        </div>
+    </header>
+    <main class="page-content">
+        <section class="hero">
+            <div class="container">
+                <h2>Поэт, чьё слово бесмертно</h2>
+                <p>Добро пожаловать в Мини-библиотеку великого русского поэта.</p>
+            </div>
+        </section>
+        <section id="bio" class="section">
+            <div class="container">
+                <h2>Биография</h2>
+                <p>Александр Сергеевич Пушкин
+                    родился 6 июня 1799 года в Москве. Один из величайших поэтов в истории русской литератуы,
+                    основоположник современного русского литературного языка.
+                </p>
+            </div>
+        </section>
+        <section id="works" class="section">
+            <div class="container">
+                <h2>Избранные произведения</h2>
+                <ul class="works-llist">
+                    <li>Евгений Онегин</li>
+                    <li>"Капитанская дочка"</li>
+                    <li>"Руслан и Людмила"</li>
+                    <li>"Борис Годунов"</li>
+                    <li>"Пиковая дама"</li>
+                </ul>
+            </div>
+        </section>
+        <section id="quotes" class="section">
+            <div class="container">
+                <h2>Знаменитые цитаты</h2>
+                <blockquote>
+                    "Я помню чудное мгновенье..."
+                </blockquote>
+                <blockquote>
+                    "Что в имени тебе моём?"
+                </blockquote>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="text">
+                    <h2>Галерея</h2>
+                </div>
+                <div id="image" class="gallery-images">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kiprensky_Pushkin.jpg/500px-Kiprensky_Pushkin.jpg" alt="Картинка">
+                    <img
+                        src="https://www.culture.ru/_next/image?url=https%3A%2F%2Fcdn.culture.ru%2Fimages%2Fec646c90-f725-57a4-8460-63db15886aef%2Fw_1020%2Cc_fill%2Cg_center%2F4.webp&w=512&q=75" alt="Картинка">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%D0%A1._%D0%93._%D0%A7%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2_-_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD_%28%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%29.jpg/250px-%D0%A1._%D0%93._%D0%A7%D0%B8%D1%80%D0%B8%D0%BA%D0%BE%D0%B2_-_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD_%28%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%29.jpg" alt="Картинка">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Мини-библиотека Пушкина. Создано с любовью к литературе.</p>
+        </div>
+    </footer>
+    <script src="JavaScript/main.js" defer></script>
+</body>
+
+</html>

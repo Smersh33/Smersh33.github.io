@@ -1,0 +1,6 @@
+node_modules
+dist
+*.min.js
+build
+yarn.lock
+package-lock.json

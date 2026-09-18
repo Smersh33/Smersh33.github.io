@@ -1,0 +1,23 @@
+{
+  "name": "library_env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.9.7",
+    "sass": "^1.101.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "description": ""
+}

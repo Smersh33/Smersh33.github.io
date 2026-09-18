@@ -1,0 +1,9 @@
+{
+    "editor.cursorBlinking": "phase",
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorHeight": 17,
+    "editor.cursorWidth": 3,
+    "editor.formatOnSave": true
+}
